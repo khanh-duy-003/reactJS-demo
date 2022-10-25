@@ -21,6 +21,8 @@ const courses = [
 function App() {
   const [checked, setChecked] = useState([])
 
+  console.log(checked)
+
   const handleSubmit = () => {
     console.log({ id: checked })
   }
