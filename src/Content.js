@@ -1,10 +1,28 @@
+import { useEffect, useState } from 'react';
 
-function content () {
+
+
+function Content () {
+    const [title, setTitle] = useState('')
+
+    // useEffect(() => {
+    //     document.title = title
+    // })
+
+    fetch('http://localhost:8089/useEffect')
+        .then(res => res.json())
+        .then(posts => {
+            console.log(posts);
+        })
+
   return (
     <div>
-        <h1>Bé Nhi dễ thương</h1>
+        <input 
+            value={title}
+            onChange = {e => setTitle(e.target.value)}
+        />
     </div>
   )
 }
 
-export default content
+export default Content
