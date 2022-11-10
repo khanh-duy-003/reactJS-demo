@@ -1,7 +1,7 @@
 
 import './App.css';
 import { useState } from 'react';
-import Content from './Content';
+import ContentChat from './ContentChat';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={() => setShow(!show)}>Toggle</button>
-      {show && <Content />}
+      {show && <ContentChat />}
     </div>
   );
 }
