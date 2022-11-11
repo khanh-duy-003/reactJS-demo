@@ -1,7 +1,7 @@
 
 import './App.css';
 import { useState } from 'react';
-import ContentChat from './ContentChat';
+import TestUseLayoutEffect from './TestUseLayoutEffect';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={() => setShow(!show)}>Toggle</button>
-      {show && <ContentChat />}
+      {show && <TestUseLayoutEffect />}
     </div>
   );
 }

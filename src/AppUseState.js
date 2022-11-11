@@ -1,10 +1,12 @@
 
 import './App.css';
-import TestUseEffect from './components/TestUseEffect';
-import TestUseState from './components/TestUseState';
-import TestUseStateTodolist from './components/TestUseStateTodolist';
+import TestMemo from './components/TestMemo';
+// import TestUseEffect from './components/TestUseEffect';
+// import TestUseRef from './components/TestUseRef';
+// import TestUseState from './components/TestUseState';
+// import TestUseStateTodolist from './components/TestUseStateTodolist';
 
-function App() {
+function AppUseState() {
 
   return (
     <div className="App">
@@ -13,12 +15,15 @@ function App() {
 {/* ** Two- way binding */}
       {/* <TestUseEffect /> */}
 {/* ** Todo list */}
-      <TestUseStateTodolist />
+      {/* <TestUseStateTodolist /> */}
+
+      {/* <TestUseRef /> */}
+      <TestMemo />
     </div>
   );
 }
 
-export default App;
+export default AppUseState;
 
 
 

@@ -17,6 +17,19 @@ const lessons = [
 function ContentChat () {
     const [lessonId, setLessonId] = useState(1)
 
+    useEffect(() => {
+
+        const handleComment = ({ detail }) => {
+            console.log(detail);
+        }
+
+        window.addEventListener(`lesson-${lessonId}`, handleComment)
+
+        return () => {
+            window.removeEventListener(`lesson-${lessonId}`, handleComment)
+        }
+    },[lessonId])
+
     return (
         <div>
             <ul>
