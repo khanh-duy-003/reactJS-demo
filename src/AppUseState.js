@@ -1,6 +1,7 @@
 
 import './App.css';
-import TestMemo from './components/TestMemo';
+// import TestMemo from './components/TestMemo';
+import TestUseMemo from './components/TestUseMemo';
 // import TestUseEffect from './components/TestUseEffect';
 // import TestUseRef from './components/TestUseRef';
 // import TestUseState from './components/TestUseState';
@@ -18,7 +19,8 @@ function AppUseState() {
       {/* <TestUseStateTodolist /> */}
 
       {/* <TestUseRef /> */}
-      <TestMemo />
+      {/* <TestMemo /> */}
+      <TestUseMemo />
     </div>
   );
 }

@@ -1,8 +1,11 @@
 import { memo } from 'react'
 
-function ContentComponents ({count}){
+function ContentComponents ({onIncrease}){
     return (
-        <h2>Hello {count}</h2>
+        <>
+            <h2>Hello</h2>
+            <button onClick={onIncrease}>Click me!</button>
+        </>
     )
 }
 
