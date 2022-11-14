@@ -1,7 +1,9 @@
 
 import './App.css';
 // import TestMemo from './components/TestMemo';
-import TestUseMemo from './components/TestUseMemo';
+// import TestUseMemo from './components/TestUseMemo';
+// import TestUseReducer from './components/TestUseReducer';
+import TestUseReducerContin from './components/TestUseReducerContin';
 // import TestUseEffect from './components/TestUseEffect';
 // import TestUseRef from './components/TestUseRef';
 // import TestUseState from './components/TestUseState';
@@ -20,7 +22,9 @@ function AppUseState() {
 
       {/* <TestUseRef /> */}
       {/* <TestMemo /> */}
-      <TestUseMemo />
+      {/* <TestUseMemo /> */}
+      {/* <TestUseReducer /> */}
+      <TestUseReducerContin />
     </div>
   );
 }
