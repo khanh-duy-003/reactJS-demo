@@ -3,11 +3,12 @@ import './App.css';
 // import TestMemo from './components/TestMemo';
 // import TestUseMemo from './components/TestUseMemo';
 // import TestUseReducer from './components/TestUseReducer';
-import TestUseReducerContin from './components/TestUseReducerContin';
+// import TestUseReducerContin from './components/TestUseReducerContin';
 // import TestUseEffect from './components/TestUseEffect';
 // import TestUseRef from './components/TestUseRef';
 // import TestUseState from './components/TestUseState';
 // import TestUseStateTodolist from './components/TestUseStateTodolist';
+import ToDoApp from './Todo';
 
 function AppUseState() {
 
@@ -24,7 +25,8 @@ function AppUseState() {
       {/* <TestMemo /> */}
       {/* <TestUseMemo /> */}
       {/* <TestUseReducer /> */}
-      <TestUseReducerContin />
+      {/* <TestUseReducerContin /> */}
+      <ToDoApp />
     </div>
   );
 }
