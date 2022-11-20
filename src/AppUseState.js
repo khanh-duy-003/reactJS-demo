@@ -8,7 +8,12 @@ import './App.css';
 // import TestUseRef from './components/TestUseRef';
 // import TestUseState from './components/TestUseState';
 // import TestUseStateTodolist from './components/TestUseStateTodolist';
-import ToDoApp from './Todo';
+// import ToDoApp from './Todo';
+// import TestReactContext from './components/TestReactContext';
+// import { ThemeProvider } from './components/ThemeProvider'
+import './App.css'
+import TestGlobalState from './components/TestGlobalState';
+import { StoreProvider } from './store';
 
 function AppUseState() {
 
@@ -26,7 +31,15 @@ function AppUseState() {
       {/* <TestUseMemo /> */}
       {/* <TestUseReducer /> */}
       {/* <TestUseReducerContin /> */}
-      <ToDoApp />
+      {/* <ToDoApp /> */}
+      {/* <ThemeProvider>
+        <TestReactContext />
+      </ThemeProvider> */}
+
+      <StoreProvider>
+        <TestGlobalState />
+      </StoreProvider>
+
     </div>
   );
 }
