@@ -12,8 +12,9 @@ import './App.css';
 // import TestReactContext from './components/TestReactContext';
 // import { ThemeProvider } from './components/ThemeProvider'
 import './App.css'
-import TestGlobalState from './components/TestGlobalState';
-import { StoreProvider } from './store';
+// import TestGlobalState from './components/TestGlobalState';
+import TestUseImperativeHandle from './components/TestUseImperativeHandle';
+// import { StoreProvider } from './store';
 
 function AppUseState() {
 
@@ -36,9 +37,11 @@ function AppUseState() {
         <TestReactContext />
       </ThemeProvider> */}
 
-      <StoreProvider>
+      {/* <StoreProvider>
         <TestGlobalState />
-      </StoreProvider>
+      </StoreProvider> */}
+
+      <TestUseImperativeHandle />
 
     </div>
   );
